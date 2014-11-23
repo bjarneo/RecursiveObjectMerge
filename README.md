@@ -12,6 +12,8 @@ npm install recursiveobjectmerge
 
 ####RecursiveObjectMerge();
 ```javascript
+var RecursiveObjectMerge = require('recursiveobjectmerge');
+
 RecursiveObjectMerge(
     { a: 'a', b: 'b', c: ['a', 'b', 'c'] },
     { a: { a: 'a', b: 'b', c: ['a', 'b', 'c'] }, d: 'd'},
