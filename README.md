@@ -5,7 +5,7 @@ Merge as many objects you want to one object recursive.
 
 #Install:
 ```bash
-npm install RecursiveObjectMerge
+npm install recursiveobjectmerge
 ```
 
 ##Documentation:
