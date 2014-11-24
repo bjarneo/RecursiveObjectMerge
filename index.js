@@ -8,7 +8,7 @@ var isObject = function (object) {
 };
 
 /* jshint node:true */
-var RecursiveObjectMerge = function (object) {
+var recursiveObjectMerge = function (object) {
     'use strict';
 
     var i = 1, key;
@@ -25,7 +25,7 @@ var RecursiveObjectMerge = function (object) {
                         object[key] = {};
                     }
 
-                    object[key] = RecursiveObjectMerge(object[key], arguments[i][key]);
+                    object[key] = recursiveObjectMerge(object[key], arguments[i][key]);
                 } else {
                     object[key] = arguments[i][key];
                 }
@@ -37,4 +37,4 @@ var RecursiveObjectMerge = function (object) {
 };
 
 // Expose Recursive Object Merge
-module.exports = RecursiveObjectMerge;
+module.exports = recursiveObjectMerge;
