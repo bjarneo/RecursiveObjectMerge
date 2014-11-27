@@ -1,16 +1,13 @@
 //  http://github.com/bjarneo/RecursiveObjectMerge
 //  (c) 2014- Bjarne Øverli
+'use strict';
 
-var isObject = function (object) {
-    'use strict';
-
+function isObject(object) {
     return Object.prototype.toString.call(object) === '[object Object]';
-};
+}
 
 /* jshint node:true */
-var recursiveObjectMerge = function (object) {
-    'use strict';
-
+function recursiveObjectMerge(object) {
     var i = 1, key;
 
     if (!arguments.length) {
@@ -34,7 +31,7 @@ var recursiveObjectMerge = function (object) {
     }
 
     return object;
-};
+}
 
 // Expose Recursive Object Merge
 module.exports = recursiveObjectMerge;
