@@ -3,7 +3,7 @@ var should = require('chai').should(),
     recursiveObjectMerge = require('./');
 
 describe('#RecursiveObjectMerge', function() {
-    it('Merge multiple objects to one', function() {
+    it('Should merge multiple objects to one', function() {
         var merged = recursiveObjectMerge(
             { a: 'a', b: 'b', c: ['a', 'b', 'c'] },
             { a: { a: 'a', b: 'b', c: ['a', 'b', 'c'] }, d: 'd'},
