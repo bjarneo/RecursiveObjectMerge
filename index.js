@@ -1,5 +1,6 @@
 //  http://github.com/bjarneo/RecursiveObjectMerge
-//  (c) 2014- Bjarne Øverli
+//  http://www.twitter.com/bjarneo_
+//  (c) 2014- Bjarne Øverli <http://bjarneo.codes/>
 'use strict';
 
 function isObject(object) {

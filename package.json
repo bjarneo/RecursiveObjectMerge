@@ -1,6 +1,6 @@
 {
     "name": "recursiveobjectmerge",
-    "version": "0.1.5",
+    "version": "0.1.7",
     "author": "Bjarne Øverli <http://www.twitter.com/bjarneo_>",
     "description": "Merge as many objects you want to one object recursive.",
     "repository": {
